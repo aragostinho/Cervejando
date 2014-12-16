@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dao", "dao\dao.csproj", "{6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modal", "modal\modal.csproj", "{AB6A352D-FE1B-4A56-BDCF-A733B0E553DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{034C30CB-1017-4FCD-87E6-239B0BD64689}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{AB6A352D-FE1B-4A56-BDCF-A733B0E553DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6A352D-FE1B-4A56-BDCF-A733B0E553DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6A352D-FE1B-4A56-BDCF-A733B0E553DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{034C30CB-1017-4FCD-87E6-239B0BD64689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{034C30CB-1017-4FCD-87E6-239B0BD64689}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{034C30CB-1017-4FCD-87E6-239B0BD64689}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{034C30CB-1017-4FCD-87E6-239B0BD64689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
