@@ -1,13 +1,12 @@
 ﻿using System;
-using NUnit;
 using NUnit.Framework;
 
 namespace test
 {
-    [Test]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestFixture]
+        [Test]
         public void TestMethod1()
         {
         }
