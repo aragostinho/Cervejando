@@ -443,7 +443,7 @@ textarea {
     }
 
     input[type="submit"],
-    input[type="button"],
+    input[type="button"], .button,
     button {
         background-color: #d3dce0;
         border: 1px solid #787878;
@@ -453,6 +453,7 @@ textarea {
         padding: 7px;
         margin-right: 8px;
         width: auto;
+        text-decoration: none
     }
 
     td input[type="submit"],
@@ -748,33 +749,37 @@ tr.pager td {
         }
 }
 
-
-
-#prateleira  {
-  width: 100%;
-  margin: 0 auto;
-  overflow: auto;
-  
+ 
+.thumbnail {
+     width: 200px;
+     height: 200px;
+     margin: 5px
 }
 
-#prateleira ul {
-  list-style-type: none;
-  
+#prateleira div {
+   font-family: Verdana;
+   color: red;
+   font-weight: bold;
+   font-size: 15px;
+   padding: 20px
 }
  
-#prateleira ul li img {
-  float: left;
-  margin: 10px;
-  border: 5px solid #fff;
- 
-  -webkit-transition: box-shadow 0.5s ease;
-  -moz-transition: box-shadow 0.5s ease;
-  -o-transition: box-shadow 0.5s ease;
-  -ms-transition: box-shadow 0.5s ease;
-  transition: box-shadow 0.5s ease;
+
+#prateleira {
+     list-style-type:none !important;
 }
- 
-#prateleira ul li img:hover {
-  -webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
-  box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+
+#prateleira li {
+    float: left;
+     text-align: center;
+}
+
+
+#formCompra{
+    float:left;
+    width: 400px;
+}
+
+#formItem{
+   
 }

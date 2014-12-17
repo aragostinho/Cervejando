@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OrderDao.cs" />
     <Compile Include="BeerDao.cs" />
     <Compile Include="IDao.cs" />
     <Compile Include="NHibernateHelper.cs" />

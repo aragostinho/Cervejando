@@ -10,24 +10,30 @@
         </div>
     </section>
 }
-<h3>Sugestoes:</h3>
+<center><h3>Selecionamos uma das opções de cerveja abaixo:</h3></center>
 
-<div id="prateleira">
-    <ul>
-        @foreach (modal.Beer beer in ViewBag.BeerList)
-        {
+<ol id="prateleira">
 
-            <li>
-                <a href="/Cerveja/@beer.Id">
-                    @beer.Name <br />
-                    @beer.Vol ml <br />
-                    R$ @beer.Price      <br />
-                    <img src="/Images/Beers/@beer.Image" width="150" height="200" /> <br />
-                </a>
-            </li>
+    @foreach (modal.Beer beer in @ViewBag.BeerList)
+    {
 
-        }
+        <li>
+            <h4>@beer.Name - @beer.Vol ml</h4>
+
+            <img src="/Images/Beers/@beer.Image" class="thumbnail" />
+            <br />
+            <div>
+               Por apenas: R$ @string.Format("{0:0.00}", beer.Price)
+            </div> 
+            <a href="/Cerveja/@beer.Id" class="button">
+                Comprar agora!
+            </a>
 
 
-    </ul>
-</div>
+        </li>
+
+    }
+
+
+
+</ol>
