@@ -12,13 +12,13 @@
     <header>
         <div class="content-wrapper">
             <div class="float-left">
-                <p class="site-title"><a href="/"><img src="/Images/beerIcon.jpg">Cervejando</a></p>
+                <p class="site-title"><a href="/"><img src="/Images/beerIcon.jpg">Cervejando</a></p><span class="beta_version">[beta]</span>
             </div>
             <div class="float-right">     
                 <nav>
                     <ul id="menu">
                         <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Sobre a gente", "About", "Home")</li>
+                        <li>@Html.ActionLink("Sobre a gente", "Index", "About")</li>
                         <li>@Html.ActionLink("Catalogo", "Catalog", "Catalog")</li>
                         <li>@Html.ActionLink("Entre em contato", "Contact", "Home")</li>
                     </ul>
