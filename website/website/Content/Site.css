@@ -783,3 +783,14 @@ tr.pager td {
 #formItem{
    
 }
+
+#btnPrint{
+    padding: 5px;
+        float:left;
+}
+
+#btnNewOrder{
+
+    padding: 5px;
+
+}
